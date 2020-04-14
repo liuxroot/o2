@@ -1,5 +1,7 @@
 package org.o2.demo;
 
+import java.util.Arrays;
+
 /**
  * <p>
  *
@@ -9,5 +11,11 @@ package org.o2.demo;
  * @since
  */
 public class HelloWorld {
-    
+
+    public void prehandle(String... arg){
+        int length = arg.length;
+        for (String ss : arg){
+            
+        }
+    }
 }
